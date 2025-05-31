@@ -15,7 +15,7 @@ def create_driver():
     return driver
 
 st.title("Instagram Downloader")
-st.image("https://www.fonelab.com/images/tips/download-instagram.png", caption="Instagram Reel Story Photo Downloader")
+#st.image("https://www.fonelab.com/images/tips/download-instagram.png", caption="Instagram Reel Story Photo Downloader")
 
 by_user = st.text_input("Enter URL to download:")
 resolution = st.selectbox("Select what do you want to download:", ["Reel", "Story", "Photo"])
